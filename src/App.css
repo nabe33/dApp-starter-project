@@ -16,6 +16,7 @@
   text-align: center;
   font-size: 32px;
   font-weight: 600;
+  border-bottom: thick solid green;
 }
 
 .bio {
