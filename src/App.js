@@ -13,8 +13,8 @@ const App = () => {
   // すべてのwavesを保存する状態変数を定義
   const [allWaves, setAllWaves] = useState([]);
   console.log("currentAccount: ", currentAccount);
-  // デプロイされたコントラクトのアドレスを保持する変数
-  const contractAddress = "0x3B470C8cF0676C315061e05A9332a7D2a53DcDA3";
+  // デプロイされたコントラクト(WavePortal)のアドレスを保持する変数
+  const contractAddress = "0xb1697ad14Fa3C34BC1013f7aA16Bd7A4969B72c4";
   console.log("currentAccount: ", currentAccount);
   // コントラクトからすべてのwavesを取得するメソッドを作成
   // ABIの内容を参照する変数
@@ -242,7 +242,7 @@ const App = () => {
                 <div 
                   key={index}
                   style={{
-                    backgroundColor: "F8F8FF",
+                    backgroundColor: "#F8F8FF",
                     marginTop: "16px",
                     padding: "8px",
                   }}
